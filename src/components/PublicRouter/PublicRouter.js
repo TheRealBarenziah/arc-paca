@@ -8,7 +8,7 @@ import CitizenPage from '../CitizenPage/CitizenPage';
 import DevelopperPage from '../DevelopperPage/DevelopperPage';
 import PublicOfficialPage from '../PublicOfficialPage/PublicOfficialPage';
 import AboutPage from '../AboutPage/AboutPage';
-import RessourcesPage from '../RessourcesPage/RessourcesPage';
+import ResourcesPage from '../ResourcesPage/ResourcesPage';
 
 export class Router extends Component {
   render() {
@@ -21,7 +21,7 @@ export class Router extends Component {
         <Route exact path="/developper" component={DevelopperPage} />
         <Route exact path="/publicofficial" component={PublicOfficialPage} />
         <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/ressources" component={RessourcesPage} />
+        <Route exact path="/resources" component={ResourcesPage} />
 
       </Switch>
     )
