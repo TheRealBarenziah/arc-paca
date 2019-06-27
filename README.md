@@ -184,5 +184,19 @@ Si le composant a seulement besoin d'acceder aux states redux sans pour autant d
 Ici nos deux composant `<LoginForm />  et <Profile/>` ne sont pas directement liés l'un à pourtant lorsque le premier modifie les states, le second se met automatiquement à jour.
 
 
-## Append ARC-Paca :
+# Note pour la team ARC-Paca :
 
+Architecture typique du projet:
+
+Composants séparés dans des dossiers src/components/NomDuComposant.
+Fichiers nommés de la même façon que le dossier, exemple, dans src/components/Homepage
+on trouve le fichier Homepage.jsx et le fichier Homepage.css.
+
+/!\ Chaque 'page' est matérialisée par un composent 'xPage', exemple HomePage, AboutPage, YouArePage, etc. Ce sont ces composant '...Page' qui seront routés et sur lesquels on fera le travail de mise en page.
+
+Sur ces composants "page", on peut appeler autant d'autres composants que l'on souhaite ('myButton et autres Cards')
+
+Gitflow: 
+Un composant, une branche...
+
+Pour plus de précisions voyez avec Djamel <3
