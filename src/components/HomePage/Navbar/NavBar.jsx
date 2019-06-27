@@ -3,7 +3,6 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
     NavLink,
@@ -36,8 +35,9 @@ export default class NavBar extends React.Component {
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem className="marginItem">
-                                <NavLink href="/">Home</NavLink>
+                            <NavItem className="marginItem marginHome">
+                                <NavLink href="/"><ion-icon  className="icon" name="home"></ion-icon></NavLink>
+                                
                             </NavItem>
                             <NavItem className="marginItem">
                                 <NavLink href="/DashBoard">Tableau de bord</NavLink>
@@ -49,14 +49,6 @@ export default class NavBar extends React.Component {
                                 <ButtonHomeDropdown />
                             </NavItem>
                             <NavItem className="marginItem">
-                                <FormGroup>
-                                    <Input
-                                        type="search"
-                                        name="search"
-                                        id="exampleSearch"
-                                        placeholder="search"
-                                    />
-                                </FormGroup>
                             </NavItem>
                             <NavItem className="marginItem">
                                 <Button outline color="success">Connexion</Button>
@@ -64,7 +56,6 @@ export default class NavBar extends React.Component {
                             <NavItem className="marginItem">
                                 <Button outline color="primary">Inscription</Button>
                             </NavItem>
-
                         </Nav>
                     </Collapse>
                 </Navbar>
