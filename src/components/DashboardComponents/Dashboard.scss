@@ -1,7 +1,45 @@
-.card-upload {
-    background-color: #FF1515;
+.cloud-upload {
+    font-size: 50px;
+    cursor: pointer;
 }
-
-body {
-    color: black;
+.sidebar-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-right {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.card-upload.card.card-body {
+    background-color: #ffeded;
+}
+button.btn.btn-secondary {
+    color: #FFF;
+    background: #2D00FF !important;
+    width: 20%;
+    border: none;
+    margin-top: 40px;
+}
+button.btn-upload:hover {
+    background: #2D00FF;
+}
+.card-news.card.card-body {
+    background-color: #efebff;
+    margin-bottom: 20px;
+}
+.card-stats.card.card-body {
+    background: #f9f9f9;
+}
+.title-upload {
+    font-weight: bold;
+    font-size: 20px;
+}
+.type-file {
+    font-size: 15px;
+}
+.card-body.sidebar-right {
+    padding: 0 !important;
 }
