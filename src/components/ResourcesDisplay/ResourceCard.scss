@@ -1,6 +1,8 @@
 .containerResourceCard {
     font-family: 'HelveticaNeue-Light';
-    width: 60vw !important;
+    width: 59vw !important;
+    margin-left: 20px !important;
+    padding-right: 0 !important;
 
     .label {
         background-color: red;
@@ -12,6 +14,7 @@
     }
     .description {
         margin-bottom: 0;
+        text-align: justify;
     }
 
     .colLabel {
