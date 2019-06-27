@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import './CitizenPage.scss';
 import { Button, Container, Col, Row} from 'reactstrap';
 
-import './Citizen.scss';
+import './CitizenPage.scss';
 
 export default class Citizen extends Component {
   render() {
