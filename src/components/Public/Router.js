@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import { connect } from 'react-redux'
-
 import LoginForm from '../LoginForm';
 
 export class Router extends Component {
