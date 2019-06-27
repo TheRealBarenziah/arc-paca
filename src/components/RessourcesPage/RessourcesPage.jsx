@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Ressources.scss';
+import './RessourcesPage.scss';
 
 export default class Ressources extends Component {
   render() {

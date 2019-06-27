@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Button, CardTitle, CardText } from 'reactstrap';
-import '../Dashboard/Dashboard.scss';
+import './Dashboard.scss';
 
 
 export default class Dashboard extends Component {

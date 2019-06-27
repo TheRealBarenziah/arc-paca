@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import './DevelopperPage.scss';
 import {Container, Row, Col}from "reactstrap"
-import './Developper.scss';
 
 export default class Developper extends Component {
   render() {
