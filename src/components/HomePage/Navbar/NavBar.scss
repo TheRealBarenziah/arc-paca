@@ -1,4 +1,5 @@
 .NavBarContainer{
+    background-color: white;
     .marginItem{
         margin: 0px 10px 0px 10px;
         padding-top: 10px; 
@@ -10,5 +11,9 @@
     }
     .nav-link{
         color: black !important;
+    }
+    img{
+        width: 100px;
+        height: 70px;
     }
 }
