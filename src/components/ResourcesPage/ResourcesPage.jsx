@@ -9,7 +9,6 @@ export default class Ressources extends Component {
     super(props)
   
     this.state = {
-       
     }
   }
   
