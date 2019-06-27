@@ -5,6 +5,14 @@ import { resourcesList } from '../../utils/resourcesList/resourcesList';
 import './ResourcesPage.scss';
 
 export default class Ressources extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       
+    }
+  }
+  
   render() {
     return (
       <div className='containerRessources'>
