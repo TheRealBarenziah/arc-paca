@@ -1,15 +1,10 @@
 import React from 'react';
-import '../../utils/resourcesList/resourcesList'
 import ResourceCard from './ResourceCard';
-import '../../utils/resourcesList/resourcesList'
-import { resourcesList } from '../../utils/resourcesList/resourcesList';
 
-export default function ResourcesDisplay() {
+export default function ResourcesDisplay(props) {
   return (
-    <div>
-      <p>Hello.</p>
-      {resourcesList.map((resourceObject) => <ResourceCard {...resourceObject} />
-      )}
-    </div>
+    <React.Fragment>
+      {props.resourcesList.map((resourceObject) => <ResourceCard {...resourceObject} />)}
+    </React.Fragment>
   )
 }
