@@ -1,14 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './ResourceCard.scss';
+import { Container } from 'reactstrap';
 
 export default function ResourceCard({title, description, labels, url}) {
   return (
-    <div>
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <div className="containerResourceCard">
+      <Container>
       {labels.map((label) => {
-        return <p>{label}</p>
+        return <div className="label">{label}</div>
       })}
+      <h3>{title} </h3>
       <a href={url} alt={title}>My Link</a>
+      <p className="description">{description}</p>
+     
+      </Container>
     </div>
   )
 }

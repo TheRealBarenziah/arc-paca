@@ -1,0 +1,15 @@
+.containerResourceCard {
+    font-family: 'HelveticaNeue-Light';
+    .label {
+        background-color:red;
+        width:150px;
+        text-align: center;  
+        color:white;
+        font-weight: 600;   
+    }
+    h3 {
+        color:red;
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+}
