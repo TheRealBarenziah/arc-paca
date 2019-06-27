@@ -31,11 +31,8 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <div className="NavBarContainer">
-                <Navbar color="light" light expand="md">
-                <img src="https://i.imgur.com/mn1lbg0.png"  alt="" width="50" height="50" />
-                <Row>
-                    <p>ARC</p>
-                    </Row>
+                <Navbar color="faded" light expand="md">
+                    <img src="https://i.imgur.com/Mj17f2D.png" alt="" />
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
