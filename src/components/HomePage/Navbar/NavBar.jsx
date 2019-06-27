@@ -11,6 +11,7 @@ import {
     FormGroup, Input,
 } from 'reactstrap';
 import ButtonHomeDropdown from './ButtonHomeDropdown/ButtonHomeDropdown';
+import './NavBar.scss'
 
 export default class NavBar extends React.Component {
     constructor(props) {
@@ -28,25 +29,25 @@ export default class NavBar extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="NavBarContainer">
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">ARC</NavbarBrand>
+                <img src="https://i.imgur.com/mn1lbg0.png"  alt="" width="50" height="50" />
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            <NavItem className="marginItem">
                                 <NavLink href="/">Home</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink href="/dashboard">Tableau de bord</NavLink>
+                            <NavItem className="marginItem">
+                                <NavLink href="/DashBoard">Tableau de bord</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink href="/resources">Ressources</NavLink>
+                            <NavItem className="marginItem">
+                                <NavLink href="/resources">Donées</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="marginItem">
                                 <ButtonHomeDropdown />
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="marginItem">
                                 <FormGroup>
                                     <Input
                                         type="search"
@@ -56,11 +57,11 @@ export default class NavBar extends React.Component {
                                     />
                                 </FormGroup>
                             </NavItem>
-                            <NavItem>
-                                <Button outline color="danger">danger</Button>
+                            <NavItem className="marginItem">
+                                <Button outline color="success">Connexion</Button>
                             </NavItem>
-                            <NavItem>
-                                <Button outline color="danger">danger</Button>
+                            <NavItem className="marginItem">
+                                <Button outline color="primary">Inscription</Button>
                             </NavItem>
 
                         </Nav>
