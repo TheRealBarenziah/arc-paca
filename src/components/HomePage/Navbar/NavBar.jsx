@@ -42,7 +42,7 @@ export default class NavBar extends React.Component {
                                 <NavLink href="/DashBoard">Tableau de bord</NavLink>
                             </NavItem>
                             <NavItem className="marginItem">
-                                <NavLink href="/ressources">Donées</NavLink>
+                                <NavLink href="/resources">Donées</NavLink>
                             </NavItem>
                             <NavItem className="marginItem">
                                 <ButtonHomeDropdown />
