@@ -66,9 +66,88 @@ export const resourcesList = [
     url: "https://mavisionneuse.ign.fr/carto.html"
   },
   {
-    title: "Test",
-    description: "Un seul être vous manque, et tout est dépeuplé...",
-    labels: ["Test", "AnotherTest", "IGN"],
-    url: "http://www.perdu.com"
-  }
+    title: "Google Data Studio",
+    description: "Google Data Studio permet de créer des reportings à partir des données, gratuit, complet, intuitif, facile à utiliser",
+    labels: ["Data Studio"],
+    url: "https://datastudio.google.com/overview"
+  },
+  {
+    title: "Chartio",
+    description: "Chartio est un outil de BI conçu pour aider les marketers, les startupers et les équipes Business à explorer les données de l’entreprise",
+    labels: ["Chartio"],
+    url: "https://chartio.com/"
+  },
+  {
+    title: "TeamSQL",
+    description: "Tean SQL est un outil cloud de gestion de requêtes très puissant, il permet créer des graphiques à partir des données obtenues à partir des requêtes",
+    labels: ["TeamSQL"],
+    url: "https://teamsql.io/"
+  },
+  {
+    title: "High Charts",
+    description: "High Charts permet de créer des rapports et des tableaux de bord en temps réel et interactifs facilement intégrables sur un site web ou une application",
+    labels: ["High Charts"],
+    url: "https://cloud.highcharts.com/"
+  },
+  {
+    title: "D3.js",
+    description: "D3.js est une bibliothèque JavaScript pour la manipulation de documents basés sur des données. ",
+    labels: ["D3.js"],
+    url: "https://d3js.org/"
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+  {
+    title: "",
+    description: "",
+    labels: [""],
+    url: ""
+  },
+
 ]
