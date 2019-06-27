@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
 import AdminRouter from './components/AdminRouter/AdminRouter';
-// import PublicRouter  from './components/PublicRouter/PublicRouter';
-import AboutPage from './components/AboutPage/AboutPage';
+import PublicRouter  from './components/PublicRouter/PublicRouter';
 
 import './App.css';
 
@@ -14,7 +13,7 @@ class App extends Component {
       <div>
         {
           !window.location.href.includes('admin') && 
-          <AboutPage />
+          <PublicRouter />
         }
         {
           window.location.href.includes('admin') &&
