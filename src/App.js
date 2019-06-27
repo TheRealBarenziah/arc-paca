@@ -6,6 +6,7 @@ import PublicRouter  from './components/PublicRouter/PublicRouter';
 import './App.css';
 import NavBar from './components/HomePage/Navbar/NavBar';
 
+
 class App extends Component {
   render() {
     console.log(this.props)

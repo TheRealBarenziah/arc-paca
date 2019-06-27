@@ -1,3 +1,34 @@
 .containerAbout {
-  background-color: green;
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+
+    .rowSection {
+      margin-top: 50px;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: nowrap;
+    }
+    h2 {
+      font-family: 'HelveticaNeue-Light';
+     margin-top: 20px;
+      font-size: 5em;
+    }
+
+    img {
+      border: 1px solid black;
+      width:100%;
+      height: 100%;
+    }
+
+    .media-body {
+      margin-left:15px;
+      text-align: justify;
+      font-family: 'HelveticaNeue-Light';
+    }
+
+    .media-heading {
+      font-weight: 900;
+    }
+    
 }
