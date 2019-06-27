@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import AdminTouter from './components/Admin/Router';
-import PublicRouter  from './components/Public/Router';
+import AdminRouter from './components/AdminRouter/AdminRouter';
+import PublicRouter  from './components/PublicRouter/PublicRouter';
 
 import './App.css';
 
@@ -17,7 +17,7 @@ class App extends Component {
         }
         {
           window.location.href.includes('admin') &&
-          <AdminTouter />
+          <AdminRouter />
         }
       </div>
     );
