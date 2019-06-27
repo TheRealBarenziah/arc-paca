@@ -8,6 +8,7 @@ import {
     NavItem,
     NavLink,
     Button,
+    Row,
     FormGroup, Input,
 } from 'reactstrap';
 import ButtonHomeDropdown from './ButtonHomeDropdown/ButtonHomeDropdown';
@@ -32,6 +33,9 @@ export default class NavBar extends React.Component {
             <div className="NavBarContainer">
                 <Navbar color="light" light expand="md">
                 <img src="https://i.imgur.com/mn1lbg0.png"  alt="" width="50" height="50" />
+                <Row>
+                    <p>ARC</p>
+                    </Row>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
