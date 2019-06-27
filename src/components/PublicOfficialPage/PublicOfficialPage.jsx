@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PublicOffical.scss';
+import './PublicOfficialPage.scss';
 
 export default class PublicOfficial extends Component {
     render() {

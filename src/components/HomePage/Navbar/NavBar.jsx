@@ -10,6 +10,7 @@ import {
     Button,
     FormGroup, Input,
 } from 'reactstrap';
+import ButtonHomeDropdown from './ButtonHomeDropdown/ButtonHomeDropdown';
 
 export default class NavBar extends React.Component {
     constructor(props) {
@@ -34,10 +35,16 @@ export default class NavBar extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
+                                <NavLink href="/">Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                <NavLink href="/DashBoard">Tableau de bord</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="/ressources">Donées</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <ButtonHomeDropdown />
                             </NavItem>
                             <NavItem>
                                 <FormGroup>

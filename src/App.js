@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 
-import AdminTouter from './components/Admin/Router';
-import PublicRouter  from './components/Public/Router';
+import AdminRouter from './components/AdminRouter/AdminRouter';
+import PublicRouter  from './components/PublicRouter/PublicRouter';
 
 import './App.css';
+import NavBar from './components/HomePage/Navbar/NavBar';
 
 class App extends Component {
   render() {
     console.log(this.props)
     return (
       <div>
+        <NavBar />
         {
           !window.location.href.includes('admin') && 
           <PublicRouter />
         }
         {
           window.location.href.includes('admin') &&
-          <AdminTouter />
+          <AdminRouter />
         }
       </div>
     );

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Developper.scss';
+import './DevelopperPage.scss';
 
 export default class Developper extends Component {
   render() {
