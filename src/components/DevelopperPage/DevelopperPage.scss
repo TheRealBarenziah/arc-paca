@@ -1,5 +1,10 @@
 .containerDevelopper{
   // background-color: brown;
+  background-image:url('fond.png');
+  background-repeat:no-repeat;
+  background-size: 100%;
+  border-top: 2px solid #2D00FF;
+  border-bottom: 2px solid #2D00FF;
 
 
   h1{
@@ -13,6 +18,7 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 20px;
     
 
   }
