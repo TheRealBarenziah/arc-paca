@@ -1,11 +1,23 @@
 .containerDevelopper{
   // background-color: brown;
 
+
   h1{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    margin-top: 20px;
+    color: #2D00FF;
+  }
+  .buttonDev{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+
   }
   .DevelopperText{
+    // padding-left: 27% !important;
+    text-align: justify;
   }
 }
