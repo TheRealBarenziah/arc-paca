@@ -30,7 +30,7 @@ export default class NavBar extends React.Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
+                    <NavbarBrand href="/">ARC</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -38,10 +38,10 @@ export default class NavBar extends React.Component {
                                 <NavLink href="/">Home</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/DashBoard">Tableau de bord</NavLink>
+                                <NavLink href="/dashboard">Tableau de bord</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="/ressources">Donées</NavLink>
+                                <NavLink href="/resources">Ressources</NavLink>
                             </NavItem>
                             <NavItem>
                                 <ButtonHomeDropdown />
