@@ -1,4 +1,4 @@
-# Pré-réquis
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b77403da-135c-44a6-a2a1-49edd8e68451/deploy-status)](https://app.netlify.com/sites/arc-paca/deploys)
 ## Instalation des librairies
 - redux
 - react-redux
