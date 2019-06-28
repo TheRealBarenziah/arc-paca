@@ -1,14 +1,31 @@
 .NavBarContainer{
+    background-color: white;
     .marginItem{
         margin: 0px 10px 0px 10px;
-        padding-top: 10px; 
+        padding-top: 30px; 
+    }
+    .marginHome{
+        margin: 0px 10px 0px 10px;
+        padding-top: 25px; 
     }
     .dropdown-toggle{
-        background-color: transparent;
-        color: black;
-        border-color: transparent;
+        background-color: transparent !important;
+        color: black !important;
+        border-color: transparent !important;
+        font-weight: bold;
     }
     .nav-link{
         color: black !important;
+        font-weight: bold;
     }
+    img{
+        width: 100px;
+        height: 90px;
+    }
+    ion-icon {
+        font-size : 32px ;
+     }
+     button{
+         font-weight: bold;
+     }
 }
