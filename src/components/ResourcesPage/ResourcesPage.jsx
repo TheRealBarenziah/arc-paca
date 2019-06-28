@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './ResourcesPage.scss';
 import ResourcesDisplay from "../ResourcesDisplay/ResourcesDisplay";
 import { resourcesList } from '../../utils/resourcesList/resourcesList';
 import { Container, Row, Col } from 'reactstrap';

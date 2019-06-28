@@ -34,7 +34,6 @@ export default class Citizen extends Component {
             <Button outline color="danger">Quelles ressources puis-je utiliser ?</Button>
             </div>
 
-
       </div>
     );
   }
