@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import './ResourcesPage.scss';
 import ResourcesDisplay from "../ResourcesDisplay/ResourcesDisplay";
 import { resourcesList } from '../../utils/resourcesList/resourcesList';
 import { Container, Row, Col } from 'reactstrap';
+import './ResourcesPage.scss';
+
 
 let myResourcesList = [...resourcesList]
 let myUniqueLabels = []
@@ -38,10 +39,11 @@ export default class Ressources extends Component {
       <div className='containerRessources'>
         <Container>
           <Row>
-            <Col md="4">
+            <Col md="3" className="colCheckbox">
+            <h2 className="titleFilter">Filtres</h2>
               {myUniqueLabels.map((labelString) => {
                 return (
-                  <Row>
+                  <Row className="rowCheckbox">
                     <label>
                       <input
                         type='checkbox'
