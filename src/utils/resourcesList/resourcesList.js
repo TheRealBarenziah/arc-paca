@@ -50,13 +50,13 @@ export const resourcesList = [
   {
     title: "Module Geoconcept-IGN",
     description: "Ce module Geoconcept permet de calculer un différentiel entre 2 cartes Geoconcept représentant les mêmes données à deux dates différentes T0 et T1.",
-    labels: ["Module Geoconcept-IGN"],
+    labels: ["Geoconcept-IGN"],
     url: "http://logiciels.ign.fr/?Presentation,47"
   },
   {
     title: "Module Geoconcept-IGN (2)",
     description: "Permettre à ses partenaires institutionnels de lui transmettre de façon automatique et normalisée, des remarques concernant les données de l’Institut.",
-    labels: ["Module Geoconcept-IGN (2)"],
+    labels: ["Geoconcept-IGN (2)"],
     url: "http://logiciels.ign.fr/?Presentation,29"
   },
   {
