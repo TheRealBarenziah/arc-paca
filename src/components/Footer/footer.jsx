@@ -12,7 +12,7 @@ export default class footer extends Component {
             <Row>
               <Col sm={5}><img  alt="" src="https://www.dataweek.fr/wp-content/uploads/2019/04/logo_dataweek-web-300x152.png"></img></Col>
             <Col offset={2}></Col>
-            <Col  className="IconFooter" sm={5}>About Us</Col>
+            <Col  className="IconFooter" sm={5}><a href="/about">About Us</a></Col>
             </Row>
         </Container>
             </div>
