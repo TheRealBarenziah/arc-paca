@@ -71,8 +71,11 @@ class Dashboard extends Component {
           <Col sm="4" className="sidebar-left">
             <Row>
               <Card body className="card-news">
-                <h3>Convertir</h3>
+                <h3>Outils</h3>
                 <CardText>
+                <div className="cloud-upload">
+                            <ion-icon name="cloud-upload" />
+                          </div>
                   <Dropzone
                     onDrop={this.handleOnDrop}
                     maxSize={fileMaxSize}
@@ -83,9 +86,6 @@ class Dashboard extends Component {
                       <section className="container">
                         <div {...getRootProps({ className: "dropzone" })}>
                           <input {...getInputProps()} />
-                          <div className="cloud-upload">
-                            <ion-icon name="cloud-upload" />
-                          </div>
                           <CardText className="type-file">XLS</CardText>
                           <p>
                             Glissez, déposez votre fichier ou cliquez ici pour
@@ -94,7 +94,7 @@ class Dashboard extends Component {
                         </div>
                         <aside>
                           <Card body className="card-news2">
-                            <p>Outils</p>
+                            <h5>Convertir</h5>
                             
                             <Button className="buttonJSON"
                               onClick={() => alert("Conversion en JSON")} outline color="primary"
