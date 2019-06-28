@@ -1,18 +1,19 @@
 import React, { Component } from "react";
-import { Row, Col } from 'reactstrap';
+import { Row, Col, CarouselCaption } from 'reactstrap';
 import './HomePage.scss';
-
 
 export default class Home extends Component {
   render() {
     return (
       <div className='containerHome'>
-         <div className="headerHomePage">
-            <img src="https://image.noelshack.com/fichiers/2019/26/5/1561710814-earth-3866609.jpg" class="img-fluid" alt=""/>
-          </div>
-        <h2>OPEN SOURCE DATA</h2>
+        <div className="headerHomePage">
+          <img src="https://image.noelshack.com/fichiers/2019/26/5/1561710814-earth-3866609.jpg" className="img-fluid" alt="" />
+          <CarouselCaption captionHeader="Affichage  Référencement  Conversion" />
+
+        </div>
+        <h2>ARC</h2>
         <Row className="PaddingRow">
-        <Col sm="4" xs="4">
+          <Col sm="4" xs="4">
             <h5>Pourquoi ?</h5>
             <p>Plus les données sont nombreuses, plus il est difficile de <em>cibler</em> la donnée pertinente pour nous.</p>
           </Col>
