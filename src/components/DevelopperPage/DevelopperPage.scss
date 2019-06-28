@@ -4,6 +4,7 @@
   background-size: 100%;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
+  height: 60%;
   
 
 
@@ -46,5 +47,17 @@
   }
   .btn-outline-secondary:hover {
     background-color: #2D00FF;
+    
   }
+  a {
+    color: #2D00FF;
+  }
+  a:hover {
+    text-decoration: none;
+    color:white;
+  }
+  .link {
+    color:red;
+  }
+  
 }
