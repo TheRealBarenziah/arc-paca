@@ -21,14 +21,12 @@ export default class ButtonHomeDropdown extends React.Component {
         return (
             <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                 <DropdownToggle caret>
-                    Vous etes ?
+                    Vous etes...
         </DropdownToggle>
                 <DropdownMenu>
-                    <DropdownItem header>Catégorie</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem href="/citizen" >Citoyen</DropdownItem>
-                    <DropdownItem href="/developper">Developpeurs</DropdownItem>
-                    <DropdownItem href="/publicofficial">Service de l'etat</DropdownItem>
+                    <DropdownItem href="/citizen" >...Citoyen</DropdownItem>
+                    <DropdownItem href="/developper">...Developpeurs</DropdownItem>
+                    <DropdownItem href="/publicofficial">...Service de l'etat</DropdownItem>
                 </DropdownMenu>
             </ButtonDropdown>
         );
