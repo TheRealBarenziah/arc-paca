@@ -95,7 +95,10 @@ class Dashboard extends Component {
               <Card body className="card-stats">
                 <h3>Statistiques</h3>
                 <CardText>
-                  <img src="https://s2.qwant.com/thumbr/0x380/e/9/dda001677ac1394123b443c44de9f1d7d203f08842a7770356b1101332ebe1/dashboard.png?u=https%3A%2F%2Fagencyanalytics.com%2Fassets%2Ffeature%2Fscreenshot%2Fdashboard.png&q=0&b=1&p=0&a=1" width="100%" alt=""/>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </CardText>
               </Card>
             </Row>
@@ -104,6 +107,32 @@ class Dashboard extends Component {
           <Col sm="8" className="sidebar-right">
             <Card body className="card-upload">
               <div className="btn-upload" />
+              <Dropzone
+                onDrop={this.handleOnDrop}
+                maxSize={fileMaxSize}
+                multiple={true}
+                accept={".xls"}
+              >
+                {({ getRootProps, getInputProps }) => (
+                  <section className="container">
+                    <div {...getRootProps({ className: "dropzone" })}>
+                      <input {...getInputProps()} />
+                      <div className="cloud-upload">
+                        <ion-icon name="cloud-upload" />
+                      </div>
+                      <CardTitle className="title-upload">
+                        Importez votre fichier
+                      </CardTitle>
+
+                      <CardText className="type-file">XLS</CardText>
+                      <p>
+                        Glissez, déposez votre fichier ou cliquez ici pour
+                        sélectionner votre fichier
+                      </p>
+                    </div>
+                  </section>
+                )}
+              </Dropzone>
               <FlexmonsterReact.Pivot toolbar={true} 
         componentFolder="https://cdn.flexmonster.com/" width="100%" 
         ref="pivot"
