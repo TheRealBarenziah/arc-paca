@@ -1,5 +1,23 @@
-.containerRessources{
-    border-top: 2px solid #2D00FF;
-    border-bottom: 2px solid #2D00FF;
-  
+.containerRessources {
+  margin-top: 40px;
+  border-top: 2px solid #2D00FF;
+  border-bottom: 2px solid #2D00FF;
+
+  .colCheckbox {
+    padding:30px;
+    border:1px solid black;
+    height: 70vh;
+    width: 200px;
+    margin-top: 35px;
+    margin-right: 70px;
+  }
+  .rowCheckbox {
+    margin-left: 10px;
+    width:300px;
+  }
+  .titleFilter {
+  margin-bottom: 20px;
+  text-align: center;
+  }
 }
+
