@@ -93,42 +93,34 @@ class Dashboard extends Component {
                           </p>
                         </div>
                         <aside>
-                          <Button
-                            onClick={() => alert("Conversion en JSON")}
-                            outline
-                            color="primary"
-                          >
-                            JSON
-                          </Button>{" "}
-                          <Button
-                            onClick={() => alert("Conversion en XML")}
-                            outline
-                            color="secondary"
-                          >
-                            XML
-                          </Button>{" "}
-                          <Button
-                            onClick={() => alert("Conversion en CSV")}
-                            outline
-                            color="success"
-                          >
-                            CSV
-                          </Button>{" "}
-                          <Button
-                            onClick={() => alert("Conversion en TEXTE")}
-                            outline
-                            color="info"
-                          >
-                            Text-format
-                          </Button>{" "}
+                          <Card body className="card-news2">
+                            <p>Outils</p>
+                            
+                            <Button className="buttonJSON"
+                              onClick={() => alert("Conversion en JSON")} outline color="primary"
+                            >JSON
+                            </Button>{" "}
+                            
+                            {/* <Button
+                              onClick={() => alert("Conversion en XML")} outline color="secondary"
+                            >XML
+                            </Button>{" "}
+
+                            <Button
+                              onClick={() => alert("Conversion en CSV")} outline color="success"
+                            >CSV
+                            </Button>{" "}
+
+                            <Button
+                              onClick={() => alert("Conversion en TEXTE")} outline color="info"
+                            >Text-format
+                            </Button>{" "} */}
+
+                          </Card>
                         </aside>
                       </section>
                     )}
                   </Dropzone>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
                 </CardText>
               </Card>
             </Row>

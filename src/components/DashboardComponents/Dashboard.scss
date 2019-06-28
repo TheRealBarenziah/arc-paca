@@ -31,7 +31,16 @@
         background-color: #efebff;
         margin-bottom: 20px;
     }
+    .card-news2.card.card-body {
+        // background-color: #ffeded;
+        display:flex;
+        flex-direction: column;
+    }
+    .buttonJSON{
+        width: 100px;
+    }
     .card-stats.card.card-body {
+        
         background: #f9f9f9;
     }
     .title-upload {
