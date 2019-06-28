@@ -10,7 +10,7 @@ import './Carousel.scss';
 
 const items = [
     {
-        src: 'https://i.imgur.com/Y2DwkxV.png',
+        src: 'https://image.noelshack.com/fichiers/2019/26/5/1561709858-earth-3866609.jpg',
         altText: 'Slide 1',
         caption: 'Afficher, référencer et convertir des données accessibles à tous'
     },

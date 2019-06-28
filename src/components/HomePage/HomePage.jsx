@@ -7,7 +7,9 @@ export default class Home extends Component {
   render() {
     return (
       <div className='containerHome'>
-        <CarouselHome />
+         <div className="headerHomePage">
+            <img src="https://image.noelshack.com/fichiers/2019/26/5/1561710814-earth-3866609.jpg" class="img-fluid" alt="Responsive image" />
+          </div>
         <h2>OPEN SOURCE DATA</h2>
         <Row className="PaddingRow">
         <Col sm="4" xs="4">
