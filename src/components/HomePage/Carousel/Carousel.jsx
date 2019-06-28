@@ -11,18 +11,8 @@ import './Carousel.scss';
 const items = [
     {
         src: 'https://i.imgur.com/Y2DwkxV.png',
-        altText: 'Slide 1',
-        caption: 'Afficher, référencer et convertir des données accessibles à tous'
-    },
-    {
-        src: 'https://i.imgur.com/Y2DwkxV.png',
-        altText: 'Slide 2',
-        caption: 'Afficher, référencer et convertir des données accessibles à tous'
-    },
-    {
-        src: 'https://i.imgur.com/Y2DwkxV.png',
-        altText: 'Slide 3',
-        caption: 'Afficher, référencer et convertir des données accessibles à tous'
+        altText: 'Welcome Page',
+        caption: 'Affichage - Référencement - Conversion'
     }
 ];
 
