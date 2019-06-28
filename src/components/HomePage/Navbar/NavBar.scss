@@ -1,40 +1,58 @@
-.NavBarContainer{
+.NavBarContainer {
     background-color: white;
-    margin-bottom: 40px;
-    
-    .marginItem{
+    margin-bottom: 10px;
+
+    .marginItem {
         margin: 0px 10px 0px 10px;
-        padding-top: 30px; 
+        padding-top: 30px;
     }
-    .marginHome{
+
+    .marginHome {
         margin: 0px 10px 0px 10px;
-        padding-top: 25px; 
+        padding-top: 25px;
     }
-    .dropdown-toggle{
+
+    .dropdown-toggle {
         background-color: transparent !important;
         color: black !important;
         border-color: transparent !important;
         font-weight: bold;
     }
-    .nav-link{
+
+    .nav-link {
         color: black !important;
         font-weight: bold;
     }
-    img{
+
+    img {
         width: 100px;
         height: 90px;
     }
+
     ion-icon {
-        font-size : 32px ;
-     }
-     button{
-         font-weight: bold;
-     }
-     .btn-outline-primary {
-         color:#2D00FF;
-         border-color: #2D00FF;
-     }
-     .btn-outline-primary:hover {
-         background-color:#2D00FF;
-     }
+        font-size: 32px;
+    }
+
+    button {
+        font-weight: bold;
+    }
+
+    .btn-outline-success {
+        color: red;
+        border-color: red;
+    }
+
+    .btn-outline-success:hover {
+        background-color: red;
+
+    }
+
+    .btn-outline-primary {
+        color: #2D00FF;
+        border-color: #2D00FF;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #2D00FF;
+    }
 }

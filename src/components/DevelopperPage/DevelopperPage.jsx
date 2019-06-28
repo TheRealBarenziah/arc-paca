@@ -31,10 +31,10 @@ export default class Developper extends Component {
         <div className="buttonDev">
         <Row className="buttonDev">
           <Col className="firstBtn">
-            <Button outline color="danger">Lien vers les ressources techniques</Button>
+            <Button outline color="danger"><a className="link"href="/resources">Lien vers les ressources techniques</a></Button>
           </Col>
           <Col className="firstBtn">
-            <Button outline color="secondary">Vous souhaitez contribuer? Retrouvez-nous sur GitHub</Button>
+            <Button outline color="secondary"><a href="https://github.com/TheRealBarenziah/arc-paca">Vous souhaitez contribuer? Retrouvez-nous sur GitHub</a></Button>
           </Col>
           </Row>
         </div>

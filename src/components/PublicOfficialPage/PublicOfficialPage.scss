@@ -1,10 +1,11 @@
 .containerPublicOfficial {
-    background-image:url('fond.png');
-    background-repeat:no-repeat;
+    background-image: url('fond.png');
+    background-repeat: no-repeat;
     background-size: 100%;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
-  
+    height: 60%;
+
 
     h1 {
         display: flex;
@@ -20,15 +21,27 @@
         margin-top: 60px;
         margin-bottom: 20px;
     }
+
     .btn-outline-danger {
+        color: red !important;
+        border-color: red;
+    }
+
+    .btn-outline-danger:hover {
+        background-color: red;
+    }
+
+    a {
         color: red;
-        border-color:red;
-      }
-      .btn-outline-danger:hover {
-        background-color:red;
-      }
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
 
     .PublicOfficialText {
         text-align: justify;
-}
+    }
+
 }
