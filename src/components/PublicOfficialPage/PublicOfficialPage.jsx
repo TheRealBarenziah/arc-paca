@@ -7,17 +7,31 @@ export default class PublicOfficial extends Component {
   render() {
     return (
       <div className='containerPublicOfficial'>
-        <h1>Public Official</h1>
+        <h1>Agents de la fonction publique</h1>
         <Container className="PublicOfficialText">
             <Row>
             <Col offset={3}></Col>
-              <Col sm={6}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in,</Col>
+              <Col sm={6}>
+                Chacun d'entre vous est également un citoyen avant d'être agent de la fonction publique, et certains 
+                d'entre vous sont également développeurs.
+
+                Toutefois nous tenons à adresser un message à l'ensemble des personnes travaillant de près où de loin sur 
+                ces problématiques de Big Data et d'ouverture des données publiques.
+
+                Loin de vouloir se substituer ou remplacer ce qui a déjà été fait, notre but est de 
+                réellement valoriser ce travail et de le rendre plus visible. En effet, en faisant quelques 
+                recherches nous avons été très agréablement surpris par la qualité des ressources déjà existantes.
+
+                Pour matérialiser la sincérité de notre considération, nous avons choisi de placer cette application sous la licence 
+                CeCILL-2.
+
+                </Col>
               <Col offset={3}></Col>
             </Row>
         </Container>
 
             <div className="buttonDev">
-            <Button outline color="danger">Mon bouton</Button>
+            <Button outline color="danger">Je veux être redirigé vers l'annuaire de ressources</Button>
             </div>
 
 
