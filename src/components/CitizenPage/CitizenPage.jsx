@@ -7,19 +7,32 @@ export default class Citizen extends Component {
   render() {
     return (
       <div className='containerCitizen'>
-        <h1>Citizen Page</h1>
+        <h1>Citoyens</h1>
         <Container className="CitizenText">
             <Row>
               <Col offset={3}></Col>
-              <Col sm={6}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in,</Col>
+              <Col sm={6}>
+                Nous pensons que l'ouverture des données publiques est une aubaine pour tous les citoyens.
+                Toutefois, sans compétence technique, la masse d'information disponible est trop importante 
+                pour pouvoir être réellement exploitée.
+
+                Le but d'ARC est de mettre à votre disposition un ensemble d'outils et de ressources permettant 
+                à n'importe qui de s'intéresser de plus près à ces .
+
+                La seule limite à l'utilisation de ces données est l'imagination, c'est pourquoi il est 
+                crucial de faciliter leur compréhension plus grand nombre. 
+
+                Nous croyons profondément que les techniciens ne suffiront pas à tirer 
+                le meilleur de cet océan de données sans le concours des citoyens.
+
+              </Col>
               <Col offset={3}></Col>
             </Row>
         </Container>
 
             <div className="buttonDev">
-            <Button outline color="danger">Mon bouton</Button>
+            <Button outline color="danger">Quelles ressources puis-je utiliser ?</Button>
             </div>
-
 
       </div>
     );

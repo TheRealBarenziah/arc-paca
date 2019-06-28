@@ -26,6 +26,7 @@ class Dashboard extends Component {
     });
   }
 
+
   handleOnDrop = (acceptedFiles, rejectedFiles, event) => {
     console.log(acceptedFiles);
     console.log("rejected files", rejectedFiles);

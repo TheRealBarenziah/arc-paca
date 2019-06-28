@@ -1,23 +1,44 @@
 import React, { Component } from "react";
 import './DevelopperPage.scss';
-import {Container, Row, Col, Button}from "reactstrap"
+import { Container, Row, Col, Button } from "reactstrap"
 
 export default class Developper extends Component {
   render() {
     return (
       <div className='containerDevelopper'>
-        <h1>Developper</h1>
+        <h1>Développeurs</h1>
         <Container className="DevelopperText">
-            <Row>
-              <Col offset={3}></Col>
-            <Col sm={6}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in,</Col>
+          <Row>
             <Col offset={3}></Col>
-            </Row>
-        </Container>
+            <Col sm={6}>
+              En plus d'être des citoyens à part entière, les développeurs possèdent les clés de l'exploitation
+              du 'Big Data'.
 
-            <div className="buttonDev">
-            <Button outline color="danger">plus d'infos</Button>
-            </div>
+              De très bons outils et APIs sont mis à leur disposition par la puissance publique. Malheureusement,
+              certains de ces outils n'ont pas la visibilité qu'ils méritent (c'est en tout cas notre opinion).
+
+              Nous voudrions faire d'ARC un outil que les dévéloppeurs auraient envie d'utiliser pour se faciliter la
+              vie. Pour ce faire, nous avons pensé que la première étape serait de centraliser toutes ces ressources
+              pour les rendre accessibles facilement et rapidement.
+
+              Bien sûr, ARC n'est qu'un prototype. Il s'agit d'un projet Open Source par essence, et nous espérons que
+              d'autres développeurs auront envie de s'emparer de la plateforme et de la modifier au gré de leurs besoins.
+
+            </Col>
+            <Col offset={3}></Col>
+          </Row>
+        </Container>
+        <div className="buttonDev">
+        <Row className="buttonDev">
+          <Col className="firstBtn">
+            <Button outline color="danger">Lien vers les ressources techniques</Button>
+          </Col>
+          <Col className="firstBtn">
+            <Button outline color="secondary">Vous souhaitez contribuer? Retrouvez-nous sur GitHub</Button>
+          </Col>
+          </Row>
+        </div>
+        
 
 
       </div>

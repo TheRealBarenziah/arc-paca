@@ -1,10 +1,10 @@
 .containerDevelopper{
-  // background-color: brown;
   background-image:url('fond.png');
   background-repeat:no-repeat;
   background-size: 100%;
-  border-top: 2px solid #2D00FF;
-  border-bottom: 2px solid #2D00FF;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  
 
 
   h1{
@@ -13,17 +13,38 @@
     margin-bottom: 30px;
     margin-top: 20px;
     color: #2D00FF;
-  }
-  .buttonDev{
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
-    
 
   }
+  .buttonDev{
+    display: flex;   
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .buttonDev {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .DevelopperText{
-    // padding-left: 27% !important;
     text-align: justify;
+  }
+  .firstBtn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .btn-outline-danger {
+    color: red;
+    border-color:red;
+  }
+  .btn-outline-danger:hover {
+    background-color:red;
+  }
+  .btn-outline-secondary {
+    color: #2D00FF;
+    border-color: #2D00FF;
+  }
+  .btn-outline-secondary:hover {
+    background-color: #2D00FF;
   }
 }
