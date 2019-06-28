@@ -8,8 +8,10 @@
     height: 65vh;
   }
   h2{
-    color: #2D00FF;
-    font-weight: bold;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(4, 42, 255), rgb(30, 99, 228),rgb(255, 255, 255),red,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    font-weight: bold;
     text-align: center;
     margin-top: 2%;
   }
