@@ -31,7 +31,7 @@ export default class PublicOfficial extends Component {
         </Container>
 
             <div className="buttonDev">
-            <Button outline color="danger">Je veux être redirigé vers l'annuaire de ressources</Button>
+            <Button outline color="danger"><a href="/resources">Je veux être redirigé vers l'annuaire de ressources</a></Button>
             </div>
 
 
