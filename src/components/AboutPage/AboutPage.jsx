@@ -10,7 +10,7 @@ export default class About extends Component {
       <div className='containerAbout'>
         <Container>
           <Row className="rowHeader">
-            <Col className="colHeader"><img src="https://cdn.pixabay.com/photo/2017/11/02/10/37/binary-2910663_960_720.jpg" class="img-fluid" alt="Responsive image" /></Col>
+            <Col className="colHeader"><img src="https://cdn.pixabay.com/photo/2017/11/02/10/37/binary-2910663_960_720.jpg" class="img-fluid" alt=""/></Col>
           </Row>
           <h2>ABOUT US</h2>
         </Container>
