@@ -16,14 +16,35 @@
 
   }
   .buttonDev{
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    display: flex;   
+    margin-top: 40px;
     margin-bottom: 20px;
-    
-
+  }
+  .buttonDev {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
   }
   .DevelopperText{
     text-align: justify;
+  }
+  .firstBtn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .btn-outline-danger {
+    color: red;
+    border-color:red;
+  }
+  .btn-outline-danger:hover {
+    background-color:red;
+  }
+  .btn-outline-secondary {
+    color: #2D00FF;
+    border-color: #2D00FF;
+  }
+  .btn-outline-secondary:hover {
+    background-color: #2D00FF;
   }
 }
