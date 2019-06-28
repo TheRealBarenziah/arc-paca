@@ -10,6 +10,7 @@
     "react-dom": "^16.6.3",
     "react-dropzone": "^10.1.5",
     "react-excel-renderer": "^1.1.0",
+    "react-flexmonster": "^2.7.8",
     "react-redux": "^5.1.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.1.1",
