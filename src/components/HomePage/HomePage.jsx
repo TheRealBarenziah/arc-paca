@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from 'reactstrap';
 import './HomePage.scss';
-import CarouselHome from "./Carousel/Carousel";
+
 
 export default class Home extends Component {
   render() {

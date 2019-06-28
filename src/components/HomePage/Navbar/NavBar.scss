@@ -1,5 +1,7 @@
 .NavBarContainer{
     background-color: white;
+    margin-bottom: 40px;
+    
     .marginItem{
         margin: 0px 10px 0px 10px;
         padding-top: 30px; 
@@ -27,5 +29,12 @@
      }
      button{
          font-weight: bold;
+     }
+     .btn-outline-primary {
+         color:#2D00FF;
+         border-color: #2D00FF;
+     }
+     .btn-outline-primary:hover {
+         background-color:#2D00FF;
      }
 }
