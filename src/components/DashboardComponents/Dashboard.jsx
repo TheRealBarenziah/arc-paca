@@ -18,6 +18,16 @@ class Dashboard extends Component {
     };
   }
 
+  // convertIntoJSON(fileObj, (err, resp) => {
+  //   if(err){
+  //     console.log(err);            
+  //   }
+  //   else{
+  //     console.log(resp.cols)
+  //     console.log(resp.rows)
+  //   }
+  // }); 
+
   handleOnDrop = (acceptedFiles, rejectedFiles, event) => {
     console.log(acceptedFiles)
     console.log('rejected files', rejectedFiles)
@@ -65,10 +75,9 @@ class Dashboard extends Component {
               <Card body className="card-news">
                 <h3>Convertir</h3>
                 <CardText>
-                
                 <Dropzone onDrop={this.handleOnDrop} maxSize={fileMaxSize} multiple={true} accept={'.xls, .csv, .json'}>
-        {({getRootProps, getInputProps}) => (
-          <section className="container">
+                  {({getRootProps, getInputProps}) => (
+                    <section className="container">
             <div {...getRootProps({className: 'dropzone'})}>
               <input {...getInputProps()} />
               <div className="cloud-upload">
@@ -78,6 +87,10 @@ class Dashboard extends Component {
               <p>Glissez, déposez votre fichier ou cliquez ici pour sélectionner votre fichier</p>
             </div>
             <aside>
+            <Button onClick={() => alert('Conversion en JSON')} outline color="primary">JSON</Button>{' '}
+            <Button onClick={() => alert('Conversion en XML')} outline color="secondary">XML</Button>{' '}
+            <Button onClick={() => alert('Conversion en CSV')} outline color="success">CSV</Button>{' '}
+            <Button onClick={() => alert('Conversion en TEXTE')} outline color="info">Text-format</Button>{' '}
             </aside>
           </section>
         )}
