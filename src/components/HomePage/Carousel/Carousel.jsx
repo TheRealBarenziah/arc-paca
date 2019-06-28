@@ -10,7 +10,8 @@ import './Carousel.scss';
 
 const items = [
     {
-        src: 'https://i.imgur.com/Y2DwkxV.png',
+<<<<<<< HEAD
+        src: 'https://image.noelshack.com/fichiers/2019/26/5/1561709858-earth-3866609.jpg',
         altText: 'Slide 1',
         caption: 'Afficher, référencer et convertir des données accessibles à tous'
     },
@@ -23,6 +24,11 @@ const items = [
         src: 'https://i.imgur.com/Y2DwkxV.png',
         altText: 'Slide 3',
         caption: 'Afficher, référencer et convertir des données accessibles à tous'
+=======
+        src: 'https://i.imgur.com/Y2DwkxV.png',
+        altText: 'Welcome Page',
+        caption: 'Affichage - Référencement - Conversion'
+>>>>>>> 97997d7811db91e957458f08481af8b06e97a025
     }
 ];
 

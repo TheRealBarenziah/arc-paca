@@ -1,8 +1,11 @@
 .containerHome{
   background-color: rgb(255, 255, 255);
-  border-top: 2px solid #2D00FF;
-  border-bottom: 2px solid #2D00FF;
+  border-bottom:4px solid black;
+  border-top:4px solid black;
 
+  .img-fluid {
+    width:100vw;
+  }
   h2{
     color: #2D00FF;
     font-weight: bold;
