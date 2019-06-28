@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     console.log(this.props)
     return (
-      <div className="arcApp"> 
+      <div> 
         <NavBar />
         {
           !window.location.href.includes('admin') && 
