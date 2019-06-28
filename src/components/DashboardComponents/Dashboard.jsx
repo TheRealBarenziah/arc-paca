@@ -72,56 +72,43 @@ class Dashboard extends Component {
             <Row>
               <Card body className="card-news">
                 <h3>Outils</h3>
-                <CardText>
-                <div className="cloud-upload">
-                            <ion-icon name="cloud-upload" />
+
+                <Card body className="card-news2">
+                  <h5>Convertir</h5>
+                  <p>Cliquez sur le bouton ci-dessous afin de convertir votre fichier</p>
+                  <Button
+                    className="buttonJSON"
+                    onClick={() => alert("Conversion en JSON")}
+                    outline
+                    color="primary"
+                  >XLS -> JSON 
+                  </Button>
+                  <CardText>
+                    {/* <div className="cloud-upload">
+                      <ion-icon name="cloud-upload" />
+                    </div> */}
+                    <Dropzone
+                      onDrop={this.handleOnDrop}
+                      maxSize={fileMaxSize}
+                      multiple={true}
+                      accept={".xls, .csv, .json"}
+                    >
+                      {({ getRootProps, getInputProps }) => (
+                        <section className="container">
+                          <div {...getRootProps({ className: "dropzone" })}>
+                            <input {...getInputProps()} />
+                            {/* <CardText className="type-file">XLS</CardText>
+                            <p>
+                              Glissez, déposez votre fichier ou cliquez ici pour
+                              sélectionner votre fichier
+                            </p> */}
                           </div>
-                  <Dropzone
-                    onDrop={this.handleOnDrop}
-                    maxSize={fileMaxSize}
-                    multiple={true}
-                    accept={".xls, .csv, .json"}
-                  >
-                    {({ getRootProps, getInputProps }) => (
-                      <section className="container">
-                        <div {...getRootProps({ className: "dropzone" })}>
-                          <input {...getInputProps()} />
-                          <CardText className="type-file">XLS</CardText>
-                          <p>
-                            Glissez, déposez votre fichier ou cliquez ici pour
-                            sélectionner votre fichier
-                          </p>
-                        </div>
-                        <aside>
-                          <Card body className="card-news2">
-                            <h5>Convertir</h5>
-                            
-                            <Button className="buttonJSON"
-                              onClick={() => alert("Conversion en JSON")} outline color="primary"
-                            >JSON
-                            </Button>{" "}
-                            
-                            {/* <Button
-                              onClick={() => alert("Conversion en XML")} outline color="secondary"
-                            >XML
-                            </Button>{" "}
-
-                            <Button
-                              onClick={() => alert("Conversion en CSV")} outline color="success"
-                            >CSV
-                            </Button>{" "}
-
-                            <Button
-                              onClick={() => alert("Conversion en TEXTE")} outline color="info"
-                            >Text-format
-                            </Button>{" "} */}
-
-                          </Card>
-                        </aside>
-                      </section>
-                    )}
-                  </Dropzone>
-                </CardText>
+                          <aside />
+                        </section>
+                      )}
+                    </Dropzone>
+                  </CardText>
+                </Card>
               </Card>
             </Row>
 
