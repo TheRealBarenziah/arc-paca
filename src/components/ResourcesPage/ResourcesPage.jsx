@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ResourcesDisplay from "../ResourcesDisplay/ResourcesDisplay";
 import { resourcesList } from '../../utils/resourcesList/resourcesList';
 import { Container, Row, Col } from 'reactstrap';
+import './ResourcesPage.scss';
+
 
 let myResourcesList = [...resourcesList]
 let myUniqueLabels = []
