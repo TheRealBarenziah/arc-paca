@@ -20,7 +20,6 @@ export default class Citizen extends Component {
             <Button outline color="danger">Mon bouton</Button>
             </div>
 
-
       </div>
     );
   }
